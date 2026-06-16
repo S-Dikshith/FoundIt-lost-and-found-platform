@@ -1,0 +1,180 @@
+﻿
+> build
+> vite build
+
+node.exe : [31mfailed 
+to load config from C:\
+Users\gandi\Downloads\f
+oundditt-main\foundditt
+-main\vite.config.ts[3
+9m
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: ([31mfailed t   
+ o ....config.ts[3    
+9m:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+[31merror during 
+build:
+Error: Build failed 
+with 1 error:
+
+[plugin 
+externalize-deps]
+Error: Missing 
+"./vite" specifier in "
+@tanstack/react-start" 
+package
+    at e (file:///C:/Us
+ers/gandi/Downloads/fou
+ndditt-main/foundditt-m
+ain/node_modules/vite/d
+ist/node/chunks/node.js
+:3157:8)
+    at n$1 (file:///C:/
+Users/gandi/Downloads/f
+oundditt-main/foundditt
+-main/node_modules/vite
+/dist/node/chunks/node.
+js:3169:14)
+    at o (file:///C:/Us
+ers/gandi/Downloads/fou
+ndditt-main/foundditt-m
+ain/node_modules/vite/d
+ist/node/chunks/node.js
+:3197:10)
+    at resolveExportsOr
+Imports (file:///C:/Use
+rs/gandi/Downloads/foun
+dditt-main/foundditt-ma
+in/node_modules/vite/di
+st/node/chunks/node.js:
+32611:45)
+    at 
+resolveDeepImport (file
+:///C:/Users/gandi/Down
+loads/foundditt-main/fo
+undditt-main/node_modul
+es/vite/dist/node/chunk
+s/node.js:32625:22)
+    at tryNodeResolve (
+file:///C:/Users/gandi/
+Downloads/foundditt-mai
+n/foundditt-main/node_m
+odules/vite/dist/node/c
+hunks/node.js:32492:70)
+    at 
+nodeResolveWithVite (fi
+le:///C:/Users/gandi/Do
+wnloads/foundditt-main/
+foundditt-main/node_mod
+ules/vite/dist/node/chu
+nks/node.js:32701:9)
+    at PluginContextImp
+l.handler (file:///C:/U
+sers/gandi/Downloads/fo
+undditt-main/foundditt-
+main/node_modules/vite/
+dist/node/chunks/node.j
+s:34912:18)
+    at plugin (file:///
+C:/Users/gandi/Download
+s/foundditt-main/foundd
+itt-main/node_modules/v
+ite/node_modules/rolldo
+wn/dist/shared/bindingi
+fy-input-options-ClrST5
+Xx.mjs:1092:30)
+    at 
+plugin.<computed> (file
+:///C:/Users/gandi/Down
+loads/foundditt-main/fo
+undditt-main/node_modul
+es/vite/node_modules/ro
+lldown/dist/shared/bind
+ingify-input-options-Cl
+rST5Xx.mjs:1625:18)
+    at aggregateBinding
+ErrorsIntoJsError (file
+:///C:/Users/gandi/Down
+loads/foundditt-main/fo
+undditt-main/node_modul
+es/vite/node_modules/ro
+lldown/dist/shared/erro
+r-BuvQYXuZ.mjs:48:18)
+    at 
+unwrapBindingResult (fi
+le:///C:/Users/gandi/Do
+wnloads/foundditt-main/
+foundditt-main/node_mod
+ules/vite/node_modules/
+rolldown/dist/shared/er
+ror-BuvQYXuZ.mjs:18:128
+)
+    at #build (file:///
+C:/Users/gandi/Download
+s/foundditt-main/foundd
+itt-main/node_modules/v
+ite/node_modules/rolldo
+wn/dist/shared/rolldown
+-build-CrPk_lZe.mjs:324
+6:34)
+    at async 
+bundleConfigFile (file:
+///C:/Users/gandi/Downl
+oads/foundditt-main/fou
+ndditt-main/node_module
+s/vite/dist/node/chunks
+/node.js:34962:17)
+    at async bundleAndL
+oadConfigFile (file:///
+C:/Users/gandi/Download
+s/foundditt-main/foundd
+itt-main/node_modules/v
+ite/dist/node/chunks/no
+de.js:34870:18)
+    at async 
+loadConfigFromFile (fil
+e:///C:/Users/gandi/Dow
+nloads/foundditt-main/f
+oundditt-main/node_modu
+les/vite/dist/node/chun
+ks/node.js:34839:42)
+    at async 
+resolveConfig (file:///
+C:/Users/gandi/Download
+s/foundditt-main/foundd
+itt-main/node_modules/v
+ite/dist/node/chunks/no
+de.js:34465:22)
+    at async 
+createBuilder (file:///
+C:/Users/gandi/Download
+s/foundditt-main/foundd
+itt-main/node_modules/v
+ite/dist/node/chunks/no
+de.js:33650:17)
+    at async 
+CAC.<anonymous> (file:/
+//C:/Users/gandi/Downlo
+ads/foundditt-main/foun
+dditt-main/node_modules
+/vite/dist/node/cli.js:
+766:19) {
+  errors: 
+[Getter/Setter]
+}[39m
